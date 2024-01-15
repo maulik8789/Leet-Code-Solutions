@@ -17,12 +17,12 @@ class Solution:
                     break
             if o1=='':
                 return o1
-            if o=='':
+            if o=='' or o1<=o:
                 o=o1
                 o1=''
-            elif o1<=o:
-                o=o1
-                o1=''
+            # elif o1<=o:
+            #     o=o1
+            #     o1=''
         return o
                 
                 
