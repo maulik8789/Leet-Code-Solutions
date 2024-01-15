@@ -4,11 +4,8 @@ class Solution:
         o=''
         if len(strs)==1:
             return strs[0]
+        l=len(min(strs, key=len))
         for i in range(len(strs)):
-            if len(strs[0])>=len(strs[i]):
-                l=len(strs[i])
-            else:
-                l = len(strs[0])
 
             for j in range(l):
                 if strs[0][j]==strs[i][j]:
@@ -20,9 +17,6 @@ class Solution:
             if o=='' or o1<=o:
                 o=o1
                 o1=''
-            # elif o1<=o:
-            #     o=o1
-            #     o1=''
         return o
                 
                 
