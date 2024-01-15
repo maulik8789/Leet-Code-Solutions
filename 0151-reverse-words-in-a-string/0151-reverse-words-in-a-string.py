@@ -17,6 +17,6 @@ class Solution:
                     temp=''
                     i+=1
                     continue
-            i+=1
+            i+=1 
         return ans
         
