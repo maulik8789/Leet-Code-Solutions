@@ -23,7 +23,6 @@ class Solution:
             elif o1<=o:
                 o=o1
                 o1=''
-            print(o1)
         return o
                 
                 
