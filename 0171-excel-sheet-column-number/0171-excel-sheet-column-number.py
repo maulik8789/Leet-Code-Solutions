@@ -26,14 +26,10 @@ class Solution:
             'W':23,
             'X':24,
             'Y':25,
-            'Z':26
+            'Z':26 
         }
         ans=0
-        cnt=0
-        for c in range(len(columnTitle)-1,-1,-1):
-            print(d[columnTitle[c]])
-            ans+=(d[columnTitle[c]]*(26**cnt))
-            cnt+=1
-        return ans
-    
-    
+        l=len(columnTitle)-1
+        for c in range(l,-1,-1):
+            ans+=(d[columnTitle[c]]*(26**(l-c)))
+        return ans    
