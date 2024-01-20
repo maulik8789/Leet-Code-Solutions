@@ -26,7 +26,7 @@ class Solution:
             'W':23,
             'X':24,
             'Y':25,
-            'Z':26
+            'Z':26 
         }
         ans=0
         l=len(columnTitle)-1
