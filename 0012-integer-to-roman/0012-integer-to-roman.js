@@ -27,9 +27,6 @@ var intToRoman = function(num) {
                 ans+=k[i-1];
                 num=num-o[k[i-1]];
                 break;
-                if (num==0){
-                    break;
-                }
             }
             else if(o[k[k.length-1]]<=num){
                 ans+=k[k.length-1];
