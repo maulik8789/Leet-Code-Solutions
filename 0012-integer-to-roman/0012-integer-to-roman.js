@@ -24,7 +24,6 @@ var intToRoman = function(num) {
     while(num>0){
         for (let i=0; i<k.length;i++){
             if(o[k[i]]>num){
-           console.log(k[i]);
                 ans+=k[i-1];
                 num=num-o[k[i-1]];
                 break;
