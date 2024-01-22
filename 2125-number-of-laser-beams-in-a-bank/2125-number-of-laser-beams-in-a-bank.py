@@ -1,6 +1,5 @@
 class Solution:
     def numberOfBeams(self, bank: List[str]) -> int:
-        mul=[]
         count=0
         m=0
         ans=0
