@@ -11,6 +11,6 @@ class Solution:
                 if bank[i][j]=='1':
                     m+=1
             ans+=count*m
-            count,m=m,0
+            count,m=m,0 
         
         return ans
