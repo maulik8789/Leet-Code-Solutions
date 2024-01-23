@@ -10,7 +10,7 @@ class Solution:
             elif j>0 and typed[j]==typed[j-1]:
                 j+=1
             else:
-                return False 
+                return False
         
         if i==len(name):
             return True
