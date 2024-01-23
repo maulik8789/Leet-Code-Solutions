@@ -12,7 +12,7 @@ class Solution:
             else:
                 return False
         
-        if i==len(name): 
+        if i==len(name):
             return True
         
         return False
