@@ -10,7 +10,6 @@ class Solution:
                 lstG=i
             if 'M' in garbage[i] and lstM==0:
                 lstM=i
-        d= {'P':lstP,'G':lstG,'M':lstM}
         for j in range(3):
             if tr==0:
                 l='P'
