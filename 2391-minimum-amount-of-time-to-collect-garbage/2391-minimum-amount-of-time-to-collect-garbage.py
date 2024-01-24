@@ -12,16 +12,17 @@ class Solution:
                 lstM=i
             
         for j in range(3):
-            for i in range(len(garbage)):
-                if tr==0:
+            if tr==0:
                     l='P'
                     lst=lstP
-                elif tr==1:
-                    l='G'
-                    lst=lstG
-                elif tr==2:
-                    l='M'
-                    lst=lstM
+            elif tr==1:
+                l='G'
+                lst=lstG
+            elif tr==2:
+                l='M'
+                lst=lstM
+            for i in range(len(garbage)):
+                
                 if l in garbage[i]:
                     for c in garbage[i]:
                         if c==l:
