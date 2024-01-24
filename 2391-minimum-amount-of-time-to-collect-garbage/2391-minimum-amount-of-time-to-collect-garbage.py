@@ -12,13 +12,8 @@ class Solution:
                 lstM=i
         d= {'P':lstP,'G':lstG,'M':lstM}
         l=['P','G','M']
+        
         for j in range(3):
-            # if tr==0:
-            #     l='P'
-            # elif tr==1:
-            #     l='G'
-            # elif tr==2:
-            #     l='M'
             for i in range(len(garbage)):
                 
                 if l[tr] in garbage[i]:
