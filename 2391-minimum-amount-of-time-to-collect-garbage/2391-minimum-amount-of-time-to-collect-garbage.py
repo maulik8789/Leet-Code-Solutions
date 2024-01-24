@@ -10,24 +10,22 @@ class Solution:
                 lstG=i
             if 'M' in garbage[i] and lstM==0:
                 lstM=i
-            
+        d= {'P':lstP,'G':lstG,'M':lstM}
+        l=['P','G','M']
         for j in range(3):
-            if tr==0:
-                    l='P'
-                    lst=lstP
-            elif tr==1:
-                l='G'
-                lst=lstG
-            elif tr==2:
-                l='M'
-                lst=lstM
+            # if tr==0:
+            #     l='P'
+            # elif tr==1:
+            #     l='G'
+            # elif tr==2:
+            #     l='M'
             for i in range(len(garbage)):
                 
-                if l in garbage[i]:
+                if l[tr] in garbage[i]:
                     for c in garbage[i]:
-                        if c==l:
+                        if c==l[tr]:
                             colP+=1
-                if i>0 and lst>=i:        
+                if i>0 and d[l[tr]]>=i:        
                     colP+=travel[i-1]
             tr+=1
         return colP
