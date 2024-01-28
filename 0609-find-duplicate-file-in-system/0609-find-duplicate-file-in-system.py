@@ -4,7 +4,7 @@ class Solution:
         dat=''
         rt=''
         fi=''
-        rtfi=[]
+        rtfi=''
         isData=0
         isRoot=0
         isFile=0
@@ -15,8 +15,9 @@ class Solution:
                 if paths[s][l]==')':
                     isData=0
                     # d[dat]=[]
-                    d[dat].append(rtfi[-1])
+                    d[dat].append(rtfi)
                     dat=''
+                    rtfi=''
                 if isData==1:
                     dat+=paths[s][l]
                 if paths[s][l]=='(':
@@ -27,7 +28,7 @@ class Solution:
                 if paths[s][l]=='(':
                     if rt[-1]!='/':
                         rt+='/'
-                    rtfi.append(rt+fi)
+                    rtfi=(rt+fi)
                     isFile=0
                     fi=''
                 if isFile==1:
