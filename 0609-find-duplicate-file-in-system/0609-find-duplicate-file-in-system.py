@@ -1,7 +1,6 @@
 class Solution:
     def findDuplicate(self, paths: List[str]) -> List[List[str]]:
         d=defaultdict(list)
-        dR=defaultdict(int)
         dat=''
         rt=''
         fi=''
@@ -9,12 +8,10 @@ class Solution:
         isData=0
         isRoot=0
         isFile=0
-        k=0
         
         for s in range(len(paths)):
             for l in range(len(paths[s])):
                 # add file data to dictionary
-                # print(paths[0][l])
                 if paths[s][l]==')':
                     isData=0
                     # d[dat]=[]
@@ -40,7 +37,7 @@ class Solution:
                     isFile=1
 
 
-                # add root data to dictionary
+                # add root data to root name
 
                 if l==len(paths[s])-1:
                     rt=''
@@ -52,7 +49,6 @@ class Solution:
                     isRoot=1
 
         ans=[]
-        print(d)
         
         for key in d:
             if len(d[key])>1:
