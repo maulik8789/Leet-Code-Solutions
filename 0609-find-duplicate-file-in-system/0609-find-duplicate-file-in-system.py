@@ -14,7 +14,6 @@ class Solution:
                 # add file data to dictionary
                 if paths[s][l]==')':
                     isData=0
-                    # d[dat]=[]
                     d[dat].append(rtfi)
                     dat=''
                     rtfi=''
@@ -42,7 +41,6 @@ class Solution:
 
                 if l==len(paths[s])-1:
                     rt=''
-                    isRoot=0
                 if isRoot==1:
                     rt+=paths[s][l]
                 if l==0:
