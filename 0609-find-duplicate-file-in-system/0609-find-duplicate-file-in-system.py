@@ -20,7 +20,7 @@ class Solution:
                 if isData==1:
                     dat+=paths[s][l]
                 if paths[s][l]=='(':
-                    isData=1
+                    isData=1 
 
 
                 # add file name to dictionary
