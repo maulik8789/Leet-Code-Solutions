@@ -15,11 +15,9 @@ class Solution:
                 else:
                     d[f'{zeroRowKey}{i}']+=1
                     d[f'{zeroColKey}{j}']+=1
-        print(d)
             
         for i in range(len(grid)):
             diff.append([])
             for j in range(len(grid[i])):
-                print(d[f'{oneRowKey}{i}'], d[f'{oneColKey}{j}'], d[f'{zeroRowKey}{i}'], d[f'{zeroRowKey}{j}'])
                 diff[i].append(d[f'{oneRowKey}{i}'] + d[f'{oneColKey}{j}'] - d[f'{zeroRowKey}{i}'] - d[f'{zeroColKey}{j}'] ) 
         return diff
