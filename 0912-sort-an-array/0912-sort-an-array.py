@@ -31,6 +31,5 @@ class Solution:
                         k+=1
                     
             return num
-        l = sArray(nums)             
-        return l
+        return sArray(nums)
                     
