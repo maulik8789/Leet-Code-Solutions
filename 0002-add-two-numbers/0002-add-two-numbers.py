@@ -91,16 +91,16 @@ class Solution:
         while curr is not None:
             ll1.insert_at_top(curr.val)
             curr=curr.next
-        ll1.print()
+        # ll1.print()
         
         ll2=ListNode()
         curr=l2
         while curr is not None:
             ll2.insert_at_top(curr.val)
             curr=curr.next
-        ll2.print()
-        print(ll1.linklist_to_int() + ll2.linklist_to_int())
+        # ll2.print()
+        # print(ll1.linklist_to_int() + ll2.linklist_to_int())
         ans=ListNode()
         ans.int_to_list(ll1.linklist_to_int() + ll2.linklist_to_int())
-        ans.print()
+        # ans.print()
         return ans.head
