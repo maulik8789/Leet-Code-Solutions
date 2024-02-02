@@ -27,7 +27,7 @@ class Solution:
                 while itr:
                     llstr=llstr+' ---> '+str(itr.val)
                     itr=itr.next
-                print(llstr)
+                # print(llstr)
             
             def linklist_to_int(self):
                 result=0
@@ -42,43 +42,6 @@ class Solution:
                 s=str(num)
                 for i in s:
                     self.insert_at_top(i)
-                    
-        class LinkList:
-            def __init__(self):
-                self.head=None
-            
-            def insert_at_top(self,val):
-                node=ListNode(val,self.head)
-                self.head=node
-            
-            def print(self):
-                if self.head==None:
-                    print(LinkList is empty)
-                    return
-                
-                itr=self.head
-                llstr=str(itr.val)
-                itr=itr.next
-                
-                while itr:
-                    llstr=llstr+' ---> '+str(itr.val)
-                    itr=itr.next
-                print(llstr)
-            
-            def linklist_to_int(self):
-                result=0
-                curr=self.head
-                while curr is not None:
-                    result=result*10+curr.val
-                    curr=curr.next
-                return result
-            def int_to_list(self,num):
-                # temp_head=ListNode()
-                # curr=temp_head
-                s=str(num)
-                for i in s:
-                    self.insert_at_top(i)
-                
                 
         # l=LinkList()
         # l.insert_at_top(4)
