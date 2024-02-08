@@ -1,12 +1,18 @@
 
 class Solution:
     def minPartitions(self, n: str) -> int:
-        ans=-1
-        # mathematical solution
-        for i in n:
-            if int(i)>ans:
-                ans=int(i)
-        return ans
+        # Shortened version of mathematical solution
+        return int(max(n))
+        
+        # mathematical solution Runtime: 8406 ms
+
+        # ans=-1
+        # for i in n:
+        #     if int(i)>ans:
+        #         ans=int(i)
+        # return ans
+        
+        
         # With actual logic: Runtime: 8406 ms
 #         # Increase the limit for integer string conversion
 #         sys.set_int_max_str_digits(100000)
