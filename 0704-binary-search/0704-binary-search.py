@@ -13,4 +13,4 @@ class Solution:
             elif nums[mid]>target:
                 right=mid-1
             mid=right+left//2
-        return -1 
+        return -1  
