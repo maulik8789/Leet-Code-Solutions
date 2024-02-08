@@ -14,4 +14,4 @@ class Solution:
             
             mid=right+left//2
         
-        return -1  
+        return -1 
