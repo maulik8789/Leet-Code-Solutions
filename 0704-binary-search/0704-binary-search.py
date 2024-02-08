@@ -10,7 +10,7 @@ class Solution:
             elif nums[mid]<target:
                 left=mid+1
             elif nums[mid]>target:
-                right=mid-1
+                right=mid-1 
             
             mid=right+left//2
         
