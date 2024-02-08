@@ -5,7 +5,6 @@ class Solution:
         mid=right+left//2
         
         while left<=right:
-            
             if nums[mid]==target:
                 return mid
             elif nums[mid]<target:
