@@ -6,4 +6,4 @@ class Solution:
                 ans+=1
             else:
                 ans-=1
-        return ans 
+        return ans
