@@ -4,13 +4,11 @@ class Solution:
         i=0
         j=len(height)-1
         while i!=j:
-            print(j)
             ans=min(height[i],height[j])*(j-i) if min(height[i],height[j])*(j-i)>ans else ans
             if height[j]>height[i]:
                 i+=1
             elif height[i]>=height[j]:
                 j-=1
-            print(i,j)
         return ans  
                 
         # Time Limit Exceeds
