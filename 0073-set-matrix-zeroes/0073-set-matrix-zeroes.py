@@ -13,12 +13,8 @@ class Solution(object):
         for i in range(getRow):
             for j in range(getCol):
                 if matrix[i][j]==0:
-                    # matrix[i].clear()
-                    # matrix[i]=[0]*len(matrix[i])
                     geti.append(i)
                     zeroIn.append(j)
-                    print(j)
-                    # break
         
         for i in range(getRow):
             if i in geti:
@@ -27,11 +23,3 @@ class Solution(object):
             for j in range(getCol):
                 if j in zeroIn:
                     matrix[i][j]=0
-        print(matrix)
-        
-        
-
-
-
-
-        
