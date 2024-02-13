@@ -4,22 +4,20 @@ class Solution(object):
         :type matrix: List[List[int]]
         :rtype: None Do not return anything, modify matrix in-place instead.
         """
-        getRow=len(matrix)
-        getCol=len(matrix[0])
         geti=[]
         getj=[]
         zeroIn=[]
 
-        for i in range(getRow):
-            for j in range(getCol):
+        for i in range(len(matrix)):
+            for j in range(len(matrix[0])):
                 if matrix[i][j]==0:
                     geti.append(i)
                     zeroIn.append(j)
         
-        for i in range(getRow):
+        for i in range(len(matrix)):
             if i in geti:
                 matrix[i]=[0]*len(matrix[i])
                 continue
-            for j in range(getCol):
+            for j in range(len(matrix[0])):
                 if j in zeroIn:
                     matrix[i][j]=0
