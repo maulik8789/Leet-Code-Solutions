@@ -3,6 +3,7 @@ class Solution:
 
         d=defaultdict(int)
         ans=[]
+        
         for i in nums:
             d[i]+=1
         if len(nums)==1 or (max(d.values())==min(d.values()) and max(d.values())==1):
