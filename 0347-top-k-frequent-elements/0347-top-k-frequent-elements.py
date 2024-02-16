@@ -6,6 +6,7 @@ class Solution:
         
         for i in nums:
             d[i]+=1
+            
         if len(nums)==1 or (max(d.values())==min(d.values()) and max(d.values())==1):
             return nums
         if k==1:
