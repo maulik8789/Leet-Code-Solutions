@@ -9,6 +9,7 @@ class Solution:
             return nums
         if k==1:
             return [key for key, value in d.items() if value == max(d.values())]
+        
         for i in range(max(d.values()),min(d.values()) - 1,-1):
             
             if k==0:
