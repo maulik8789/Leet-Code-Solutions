@@ -1,7 +1,6 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 
-        max1=0
         d=defaultdict(int)
         ans=[]
         for i in nums:
@@ -18,6 +17,5 @@ class Solution:
                 if value == i:
                     ans.append(key)
                     k-=1
-            print(ans)
 
         return ans
