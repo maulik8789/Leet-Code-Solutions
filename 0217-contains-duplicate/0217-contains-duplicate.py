@@ -5,4 +5,4 @@ class Solution:
             d[i]+=1
             if d[i]==2:
                 return True
-        return False
+        return False 
