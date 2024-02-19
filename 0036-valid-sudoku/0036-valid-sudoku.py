@@ -15,4 +15,4 @@ class Solution:
                 ele = board[i][j]
                 if ele!='.':
                     res+=[(i,ele),(ele,j),(i//3,j//3,ele)]
-        return len(res)==len(set(res)) 
+        return len(res)==len(set(res))
