@@ -6,7 +6,7 @@ class Solution:
             for j, x in enumerate(row):
                 if x!='.':
                     ans+=[(i,x),(x,j),(i//3,j//3,x)]
-        return len(ans)==len(set(ans))
+        return len(ans)==len(set(ans)) 
         
         # Runtime: 87 ms, faster than 85.09% of Python3 online submissions for Valid Sudoku.
         # res=[]
