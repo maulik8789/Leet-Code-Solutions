@@ -1,6 +1,5 @@
 class Solution:
     def rearrangeArray(self, nums: List[int]) -> List[int]:
-        d=defaultdict(int)
         ans=[0]*len(nums)
         p=0
         n=1
