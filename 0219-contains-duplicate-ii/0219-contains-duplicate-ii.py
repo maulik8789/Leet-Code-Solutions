@@ -1,6 +1,7 @@
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
-        d= defaultdict(int)
+        # Runtime: 482 ms, faster than 32.00% of Python3 online submissions for Contains Duplicate II.
+        d= {}
         for i in range(len(nums)):
             if nums[i] in d.keys():
                 if nums[i] == d[nums[i]][1] and abs(i - d[nums[i]][0]) <= k:
