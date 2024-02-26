@@ -11,6 +11,6 @@ class Solution:
                 temp[w[l]].append(l)
                 if len(list(temp.values()))>len(list(d.values())):
                     break
-            if list(temp.values()) == list(d.values()):
-                ans.append(w)
+                if list(temp.values()) == list(d.values()):
+                    ans.append(w)
         return ans
