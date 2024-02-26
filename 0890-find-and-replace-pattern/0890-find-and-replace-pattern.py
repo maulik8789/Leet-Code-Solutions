@@ -11,4 +11,3 @@ class Solution:
             if list(temp.values()) == list(d.values()):
                 ans.append(w)
         return ans
-                
