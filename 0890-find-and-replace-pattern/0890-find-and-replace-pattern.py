@@ -9,6 +9,8 @@ class Solution:
             temp=defaultdict(list)
             for l in range(len(w)):
                 temp[w[l]].append(l)
+                if len(list(temp.values()))>len(list(d.values())):
+                    break
             if list(temp.values()) == list(d.values()):
                 ans.append(w)
         return ans
