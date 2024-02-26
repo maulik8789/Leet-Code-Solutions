@@ -6,7 +6,6 @@ class Solution:
         ans=0
         i=0
         while l<hi:
-            print(l,hi)
             sm=nums[l]+nums[hi]
             if sm==k:
                 ans+=1
