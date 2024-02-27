@@ -1,13 +1,10 @@
 class Solution:
     def sortVowels(self, s: str) -> str:
-        # d=defaultdict(int)
         vo=[]
-        # ind=[]
-        v=['A','E','I','O','U','a','e','i','o','u']
+        v='AEIOUaeiou'
         for l in range(len(s)):
             if s[l] in v:
                 vo.append(s[l])
-                # ind.append(l)
         if len(vo)==0:
             return s
         vo.sort()
