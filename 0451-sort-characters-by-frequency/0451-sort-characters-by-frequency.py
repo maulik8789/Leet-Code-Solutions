@@ -9,7 +9,7 @@ class Solution:
         for ch, fr in freq.items():
             bucket[fr].append(ch)
             
-        estr=''
+        estr='' 
         
         for i in range(len(bucket)-1,-1,-1):
             if bucket[i]:
