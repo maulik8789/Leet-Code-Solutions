@@ -7,6 +7,5 @@ class Solution:
         for i in s:
             if i in sc:
                 s=s.replace(i,'')
-        print(s[::-1])
         return s.lower()==s[::-1].lower()
         
