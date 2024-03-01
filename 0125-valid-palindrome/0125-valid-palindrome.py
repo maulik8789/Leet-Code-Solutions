@@ -1,8 +1,7 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        # st=s.replace('','')
         # Define a regex pattern to match special characters and spaces
-        sc= set("!@#$%^&*()_+{}[]:;<>,.?/~`\"'- ")
+        sc= "!@#$%^&*()_+{}[]:;<>,.?/~`\"'- "
         
         for i in s:
             if i in sc:
