@@ -1,3 +1,5 @@
+import re
+
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         # Define a regex pattern to match special characters and spaces
@@ -5,10 +7,7 @@ class Solution:
             return True
         if len(s)==0:
             return False
-        sc= "!@#$%^&*()_+{}[]:;<>,.?/~`\"'- "
-        s=s.lower()
-        for i in s:
-            if i in sc:
-                s=s.replace(i,'')
+
+        s=re.sub(r'[^a-zA-Z0-9]','',s.lower())
         return s==s[::-1]
         
