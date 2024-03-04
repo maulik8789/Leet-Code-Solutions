@@ -5,14 +5,13 @@ class Solution:
             n = -n
         if n == 0:
             return 1
-        base = x
         total = 1
         while n > 0:
             if n % 2 == 1:
-                total *= base
-            base *= base
+                total *= x
+            x *= x
             n //= 2
-            print(n)
+            # print(n)
         return total
         
         # Runtime: 136ms
