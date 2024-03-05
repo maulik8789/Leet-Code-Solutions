@@ -11,11 +11,11 @@ class Solution:
         
         sm=n
         while sm!=1:
-            print(sm)
+            # print(sm)
             sm=tot(sm)
-            print('s',sm)
+            # print('s',sm)
             if sm==1:
                 return True
             if sm==4:
                 return False
-        return True
+        return True 
