@@ -1,17 +1,30 @@
 class Solution:
     def myPow(self, x: float, n: int) -> float:
+#       Time Complexity : O(logN).
+#       Space Complexity : O(1), Constant space.
+
+        # change the number if power is negetive
         if n < 0:
             x = 1/x
             n = -n
+            
+        # Return, if power is 0
         if n == 0:
             return 1
+        
+        # loop until n is 0
         total = 1
         while n > 0:
+            # if n is odd, multiply x once with total
             if n % 2 == 1:
                 total *= x
+            
+            # multiply x with x
             x *= x
+            
+            
             n //= 2
-            # print(n)
+            print(n)
         return total
         
         # Runtime: 136ms
