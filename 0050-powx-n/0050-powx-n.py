@@ -24,7 +24,7 @@ class Solution:
             
             
             n //= 2
-            print(n)
+            # print(n)
         return total
         
         # Runtime: 136ms
