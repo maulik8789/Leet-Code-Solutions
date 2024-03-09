@@ -7,7 +7,7 @@ class Solution:
             # print(r,l)
             if s[r]==s[l-1]:
                 while s[r]==s[l-1] and r!=l-1:
-                    print(r,l-1)
+                    # print(r,l-1)
                     if s[r]==s[l-1-1]:
                         l-=1
                     elif s[r+1]==s[l-1]:
