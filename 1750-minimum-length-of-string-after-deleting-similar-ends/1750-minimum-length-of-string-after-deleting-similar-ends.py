@@ -5,7 +5,6 @@ class Solution:
         # print(r,l)
         while l-r>1 and s[r]==s[l-1]:
             # print(r,l)
-            if s[r]==s[l-1]:
                 while s[r]==s[l-1] and l-r>1:
                     # print(r,l-1)
                     if s[r]==s[l-1-1]:
@@ -16,7 +15,5 @@ class Solution:
                         break
                 r+=1
                 l-=1
-            else:
-                break
         return l-r if l-r>0 else 0
                 
