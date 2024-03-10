@@ -9,9 +9,10 @@ class Solution:
         for i in range(len(edges)):
             for j in range(len(edges[i])):
                 # print(j, d[edges[i][j]])
-                if d[edges[i][j]]<=j:
+                if d[edges[i][j]]<j:
                     d[edges[i][j]]=j
                 # print('after ',j, d[edges[i][j]])
+        
         if len(d.keys())<n:
             return -1
         # print(min(d.values()))
