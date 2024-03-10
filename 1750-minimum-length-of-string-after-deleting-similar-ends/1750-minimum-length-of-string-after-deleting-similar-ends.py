@@ -16,5 +16,5 @@ class Solution:
         # print(r,l)
         if r==l-1:
             return 1
-        return 0 if (s[l-1]==s[r] or l-r<0) else l-r
+        return 0 if ( l-r<0) else l-r
                 
