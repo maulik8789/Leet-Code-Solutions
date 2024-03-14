@@ -4,7 +4,7 @@ class Solution:
         ans=[pref[0]]
         for i in range(1,len(pref)):
             ans.append(pref[i-1]^pref[i])
-        return ans
+        return ans 
         # exponent = math.log(result, base)
         # Time limit Execeeded
         # ans=[pref[0]]
