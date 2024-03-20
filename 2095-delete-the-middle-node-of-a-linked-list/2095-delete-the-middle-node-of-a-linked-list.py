@@ -5,6 +5,8 @@
 #         self.next = next
 class Solution:
     def deleteMiddle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head.next:
+            return None
         def getLen(header):
             current=header
             length=0
@@ -15,8 +17,8 @@ class Solution:
             return length
         
         lstLen=getLen(head)
-        if lstLen<2:
-            return None
+        # if lstLen<2:
+            # return None
         curr=head
         point=1
         # print((lstLen//2))
