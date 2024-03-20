@@ -6,27 +6,28 @@ import math
 #         self.next = next
 class Solution:
     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        slow=head
-        fast=head
-        while fast is not None and fast.next is not None:
-            slow=slow.next
-            fast=fast.next.next
-        return slow
+        # Runtime: 46 ms, faster than 7.29% of Python3
+        # slow=head
+        # fast=head
+        # while fast is not None and fast.next is not None:
+        #     slow=slow.next
+        #     fast=fast.next.next
+        # return slow
         
-#         def getLen(header):
-#             current=header
-#             length=0
+        def getLen(header):
+            current=header
+            length=0
             
-#             while current:
-#                 length+=1
-#                 current=current.next
-#             return length
+            while current:
+                length+=1
+                current=current.next
+            return length
         
-#         lstLen=getLen(head)
-#         curr=head
-#         point=1
-#         print((lstLen//2))
-#         while point<=(lstLen//2):
-#             point+=1
-#             curr=curr.next
-#         return curr
+        lstLen=getLen(head)
+        curr=head
+        point=1
+        print((lstLen//2))
+        while point<=(lstLen//2):
+            point+=1
+            curr=curr.next
+        return curr
