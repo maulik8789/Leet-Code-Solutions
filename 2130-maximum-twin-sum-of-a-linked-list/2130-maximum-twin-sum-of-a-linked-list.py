@@ -48,7 +48,6 @@ class Solution:
             # Linking
             c1.next = c2
             c2.next = f1
-            print(c1.val, c2.val)
             ans=max(ans,c1.val+c2.val)
             # Move
             c1 = f1
