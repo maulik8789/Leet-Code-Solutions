@@ -24,7 +24,7 @@ class Solution:
             leftNs.append(ListNode(curr.val))
             curr=curr.next
             i+=1
-        print('l',leftNs)
+        # print('l',leftNs)
         while i<left:
             curr=curr.next
             i+=1
@@ -39,12 +39,12 @@ class Solution:
             i+=1
         temp.next=None
         subL=subL.next
-        print(ans)
+        # print(ans)
         while subL:
             rightNs.append(ListNode(subL.val))
             subL=subL.next
             i+=1
-        print('r', rightNs)
+        # print('r', rightNs)
         curr=ans
         prev=None
         
@@ -53,17 +53,17 @@ class Solution:
             curr.next=prev
             prev=curr
             curr=frw
-        print(prev)
+        # print(prev)
         l=len(leftNs)-1
         new_node=None
         while l>=0 and len(leftNs)>0:
             new_node=None
             new_node = ListNode(leftNs[l].val)
-            print(new_node)
+            # print(new_node)
             new_node.next=prev
             prev=new_node
             l-=1
-            print(prev)
+            # print(prev)
         lastCurr=None
         if new_node:
             lastCurr=new_node
@@ -72,17 +72,17 @@ class Solution:
         if lastCurr:
             while lastCurr.next:
                 lastCurr=lastCurr.next
-        print(lastCurr)
+        # print(lastCurr)
         # if lastCurr:
         l=0
         while l<len(rightNs) and len(rightNs)>0:
             # lastCurr=None
             newN=ListNode(rightNs[l].val)
             lastCurr.next=newN
-            print(lastCurr)
+            # print(lastCurr)
             # print(new_node)
             lastCurr=lastCurr.next
             l+=1
-        print(prev)
+        # print(prev)
         return new_node if new_node else prev
             
