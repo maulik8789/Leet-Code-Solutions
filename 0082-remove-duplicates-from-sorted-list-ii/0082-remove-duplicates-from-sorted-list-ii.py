@@ -23,7 +23,6 @@ class Solution:
                     newNode=ListNode(current.val)
                     ans=newNode
                     current=current.next
-                    print(ans)
                 else:
                     if res is None:
                         res=ans
@@ -31,7 +30,6 @@ class Solution:
                         res.next=ListNode(current.val)
                         res=res.next
                     current=current.next
-                    print(ans)
             elif current.next is None and dupVal!=current.val:
                 if res is None:
                     res=ans
