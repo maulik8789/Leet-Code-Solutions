@@ -37,7 +37,7 @@ class Solution:
             temp=temp.next
             subL=subL.next
             i+=1
-        temp.next=None
+        temp.next=None 
         subL=subL.next
         # print(ans)
         while subL:
