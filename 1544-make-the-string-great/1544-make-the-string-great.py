@@ -10,7 +10,6 @@ class Solution:
                     s=s[:i]
                 else:
                     s=s[:i]+s[i+2:] 
-                print(s,i)
                 i-=1
             else:
                 i+=1
