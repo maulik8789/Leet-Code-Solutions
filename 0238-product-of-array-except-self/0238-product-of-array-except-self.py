@@ -1,5 +1,6 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
+        # Another way to address suffix array
         res = [1]*len(nums)
         left = 1
         for i in range(len(nums)):
