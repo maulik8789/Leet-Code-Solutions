@@ -11,7 +11,7 @@ class Solution:
             st.appendleft(st.pop())
             st.appendleft(deck[i])
             # print(st)
-        revealed = []
+        # revealed = []
         # while st:
         #     revealed.append(st.popleft())
         # return revealed        
