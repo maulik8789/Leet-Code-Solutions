@@ -7,8 +7,7 @@ class Solution:
         l=len(nums)
         while k <(l)-1:
             if nums[i]==0:
-                num=nums.pop(i)
-                nums.append(num)
+                nums.append(nums.pop(i))
             else:
                 i+=1
             k+=1
