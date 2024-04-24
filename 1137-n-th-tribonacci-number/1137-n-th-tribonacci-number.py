@@ -7,8 +7,6 @@ class Solution:
             return 1
         op=[0,1,1]    
         while t<=n:
-            # print(sum([op[x] for x in range(len(op)-3,len(op)) ]))
             op.append(sum([op[x] for x in range(len(op)-3,len(op)) ]))
             t+=1
-        # print(op)
         return op[-1]
