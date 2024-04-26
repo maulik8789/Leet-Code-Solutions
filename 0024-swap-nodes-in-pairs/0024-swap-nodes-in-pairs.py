@@ -9,7 +9,6 @@ class Solution:
         if not head or not head.next:
             return head
         while curr.next:
-            print(curr, head)
             temp=curr.val
             curr.val=curr.next.val
             curr.next.val=temp
