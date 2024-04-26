@@ -9,7 +9,6 @@ class Solution:
         fstN=head
         
         while fstN and fstN.next:
-            print(head.val, fstN.val)
             head=head.next
             fstN=fstN.next.next
             # print(head.val, fstN.val)
