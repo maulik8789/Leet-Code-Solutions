@@ -9,31 +9,26 @@ class Solution:
         if not head or not head.next:
             return head
         def lstLen(header):
-            
             curr=header
-            l=0
+            # l=0
             while curr:
-                l+=1
+                # l+=1
                 arr.append(curr.val)
                 curr=curr.next
-            return l
+            # return l
         
-        lenL=lstLen(head)
+        lstLen(head)
         
         curr=head
         itr=0
-        endK=lenL-k
-        
+        endK=len(arr)-k
 
         while curr:
             if k-1==itr:
                 curr.val=arr[endK]
-                # temp1=curr.val
             elif endK==itr:
                 curr.val=arr[k-1]
-                # temp2=curr.val
             itr+=1
-            
             curr=curr.next
 
         return head
