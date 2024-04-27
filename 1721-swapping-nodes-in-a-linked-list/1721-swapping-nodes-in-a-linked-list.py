@@ -19,13 +19,11 @@ class Solution:
             return l
         
         lenL=lstLen(head)
-        print(lenL, arr)
         
         curr=head
         itr=0
         endK=lenL-k
         
-        temp1,temp2=0,0
 
         while curr:
             if k-1==itr:
