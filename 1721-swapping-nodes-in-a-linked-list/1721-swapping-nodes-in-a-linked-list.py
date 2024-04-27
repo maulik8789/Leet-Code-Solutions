@@ -37,20 +37,5 @@ class Solution:
             itr+=1
             
             curr=curr.next
-        # print(temp1, temp2, head)
-        # if endK==k and temp1!=temp2:
-        #     temp2=temp1
-        # curr1=head
-        # itr=0
-        # while curr1:
-        #     if k-1==itr:
-        #         curr1.val=temp2
-        #     elif endK==itr:
-        #         curr1.val=temp1
-        #     itr+=1
-        #     # print(curr1)
-        #     curr1=curr1.next
-        #     # print(itr)
-        #     # print(curr1)
-        # # print(head)
+
         return head
