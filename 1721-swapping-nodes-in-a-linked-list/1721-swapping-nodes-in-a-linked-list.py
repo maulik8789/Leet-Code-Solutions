@@ -5,10 +5,11 @@
 #         self.next = next
 class Solution:
     def swapNodes(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+        # Runtime: 382 ms
         dummy=ListNode(0,head)
         
-        start=dummy
-        slow, fast=dummy,dummy
+        # start=dummy
+        start,slow, fast=dummy,dummy,dummy
         
         for i in range(k):
             start=start.next
