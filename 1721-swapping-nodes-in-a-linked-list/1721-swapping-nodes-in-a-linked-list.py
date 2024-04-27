@@ -8,14 +8,12 @@ class Solution:
         arr=[]
         if not head or not head.next:
             return head
+        
         def lstLen(header):
             curr=header
-            # l=0
             while curr:
-                # l+=1
                 arr.append(curr.val)
                 curr=curr.next
-            # return l
         
         lstLen(head)
         
