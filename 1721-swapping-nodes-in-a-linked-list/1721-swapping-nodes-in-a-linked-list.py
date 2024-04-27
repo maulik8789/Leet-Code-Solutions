@@ -5,28 +5,46 @@
 #         self.next = next
 class Solution:
     def swapNodes(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-        arr=[]
-        if not head or not head.next:
-            return head
+        dummy=ListNode(0,head)
         
-        def lstLen(header):
-            curr=header
-            while curr:
-                arr.append(curr.val)
-                curr=curr.next
+        start=dummy
+        slow, fast=dummy,dummy
         
-        lstLen(head)
+        for i in range(k):
+            start=start.next
+            fast=fast.next
         
-        curr=head
-        itr=0
-        endK=len(arr)-k
-
-        while curr:
-            if k-1==itr:
-                curr.val=arr[endK]
-            elif endK==itr:
-                curr.val=arr[k-1]
-            itr+=1
-            curr=curr.next
-
+        while fast:
+            fast=fast.next
+            slow=slow.next
+            
+        start.val, slow.val=slow.val, start.val
         return head
+        
+        
+#       Runtime: 390 ms,
+        #         arr=[]
+#         if not head or not head.next:
+#             return head
+        
+#         def lstLen(header):
+#             curr=header
+#             while curr:
+#                 arr.append(curr.val)
+#                 curr=curr.next
+        
+#         lstLen(head)
+        
+#         curr=head
+#         itr=0
+#         endK=len(arr)-k
+
+#         while curr:
+#             if k-1==itr:
+#                 curr.val=arr[endK]
+#             elif endK==itr:
+#                 curr.val=arr[k-1]
+#             itr+=1
+#             curr=curr.next
+
+#         return head
