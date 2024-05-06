@@ -2,12 +2,12 @@ class Solution:
     def checkArithmeticSubarrays(self, nums: List[int], l: List[int], r: List[int]) -> List[bool]:
         arr=[]
         for i in range(len(l)):
-            print(l[i],r[i])
+            # print(l[i],r[i])
             arr.append(sorted(nums[l[i]:r[i]+1]))
         print(arr)
         ans=[]
         for i in range(len(arr)):
-            print(arr[i],arr[i])
+            # print(arr[i],arr[i])
             diff=arr[i][0]-arr[i][1]
             isFalse=0
             for j in range(1,len(arr[i])):
