@@ -7,7 +7,7 @@ class Solution:
         
         score=sorted(score)
         ans=['']*(l)
-        print(score,l)
+        # print(score,l)
         for i in range(l-1,-1,-1):
             # print(i, d[score[i]],ans)
             if i ==l-1:
