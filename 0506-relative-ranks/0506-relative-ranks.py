@@ -18,5 +18,5 @@ class Solution:
                 ans[d[score[i]]]='Bronze Medal'
             else:
                 ans[d[score[i]]]=str(l-i)
-        return ans
+        return ans 
             
