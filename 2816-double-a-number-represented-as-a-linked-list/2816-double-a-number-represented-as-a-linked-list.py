@@ -17,7 +17,7 @@ class Solution:
             head = ListNode(num % 10, head)
         
         if d == 1:
-            head = ListNode(d, head) 
+            head = ListNode(d, head)
         
         return head
         # Runtime: 569 ms,
