@@ -1,7 +1,14 @@
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        dR=defaultdict(int)
+        dm=defaultdict(int)
         for i in ransomNote:
-            if ransomNote.count(i)>magazine.count(i) or i not in magazine:
+            dR[i]+=1
+        for i in magazine:
+            dm[i]+=1
+            
+        for i in dR.keys():
+            if dR[i]>dm[i] or i not in magazine:
                 return False
         return True
             
