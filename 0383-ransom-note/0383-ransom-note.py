@@ -4,18 +4,18 @@ class Solution:
             return False
         dR=defaultdict(int)
         dm=defaultdict(int)
-        # for i in ransomNote:
-        #     dR[i]+=1
-        # for i in magazine:
-        #     dm[i]+=1
-        l1=len(magazine)
-        l2=len(ransomNote)
-        l=max(l1,l2)
-        for i in range(l):
-            if i<l1:
-                dm[magazine[i]]+=1
-            if i<l2:
-                dR[ransomNote[i]]+=1
+        for i in ransomNote:
+            dR[i]+=1
+        for i in magazine:
+            dm[i]+=1
+        # l1=len(magazine)
+        # l2=len(ransomNote)
+        # l=max(l1,l2)
+        # for i in range(l):
+        #     if i<l1:
+        #         dm[magazine[i]]+=1
+        #     if i<l2:
+        #         dR[ransomNote[i]]+=1
         for i in dR.keys():
             if dR[i]>dm[i] or i not in magazine:
                 return False
