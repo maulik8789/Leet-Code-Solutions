@@ -16,7 +16,6 @@ class Solution:
                 dm[magazine[i]]+=1
             if i<l2:
                 dR[ransomNote[i]]+=1
-        print(dR, dm)
         for i in dR.keys():
             if dR[i]>dm[i] or i not in magazine:
                 return False
