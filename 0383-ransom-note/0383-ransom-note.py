@@ -11,7 +11,8 @@ class Solution:
             if dR[i]>dm[i] or i not in magazine:
                 return False
         return True
-            
+    
+        # Runtime: 153ms
         # if len(magazine)<len(ransomNote):
         #     return False
         # d=defaultdict(int)
