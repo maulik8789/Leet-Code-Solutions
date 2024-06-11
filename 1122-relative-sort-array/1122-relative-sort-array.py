@@ -9,4 +9,4 @@ class Solution:
         for i in arr1:
             if i not in arr2:
                     endArr.append(i)
-        return ans+sorted(endArr)
+        return ans+sorted(endArr) 
