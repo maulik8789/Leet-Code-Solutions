@@ -13,7 +13,6 @@ class Solution:
             elif curr.next is not None and len(sub_arr[-1])>0:
                 sub_arr.append([])
             curr=curr.next
-        print(sub_arr)
         if sub_arr[-1]==[]:
             sub_arr.pop()
         return len(sub_arr)
