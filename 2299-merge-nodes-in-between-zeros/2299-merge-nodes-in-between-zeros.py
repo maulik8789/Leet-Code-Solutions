@@ -16,7 +16,7 @@ class Solution:
                     ans_head.next=ListNode()
                     ans_head=ans_head.next
                 tot=0
-            else:
+            else: 
                 tot+=curr.val
             curr=curr.next
         return ans
