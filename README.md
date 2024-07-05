@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0835-linked-list-components](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0835-linked-list-components) |
+| [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Simulation
 |  |
