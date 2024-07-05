@@ -15,16 +15,13 @@ class Solution:
                 minArr.append(nodeNum+1)
             nodeNum+=1
             curr=curr.next
-        print(minArr)
+        # print(minArr)
         ans=[10000000,-1]
         minArr=sorted(minArr)
         for i in range(len(minArr)-1):
-            # for j in range(i+1,len(minArr)):
             frstEle=abs(minArr[i]-minArr[i+1])
             if ans[0]>frstEle:
                 ans[0]=frstEle
-            # if ans[1]<frstEle:
-            #     ans[1]=frstEle
         if len(minArr)>0:
             ans[1]=minArr[-1]-minArr[0]
         return ans if ans[0]!=10000000 else [-1,-1]
