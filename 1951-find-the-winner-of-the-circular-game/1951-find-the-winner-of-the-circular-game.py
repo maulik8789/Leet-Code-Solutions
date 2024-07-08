@@ -6,7 +6,7 @@ class Solution:
         i=0
         x=1
         c=0
-        while c<n:
+        while c<n-1:
             # print(ans)
             if i==len(ans):
                 i=0
@@ -20,8 +20,8 @@ class Solution:
             # print(i, x)
             
             # print(ans)
-            if c==len(ans)-1:
-                break
+            # if c==len(ans)-1:
+            #     break
         return (ans.index(0))+1
         # 'for l in range(len(ans)):
         #     if ans[l]==0:
