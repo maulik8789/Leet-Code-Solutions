@@ -22,9 +22,8 @@ class Solution:
             # print(ans)
             if c==len(ans)-1:
                 break
-        
-
-        for l in range(len(ans)):
-            if ans[l]==0:
-                return l+1
-        return 100
+        return (ans.index(0))+1
+        # 'for l in range(len(ans)):
+        #     if ans[l]==0:
+        #         return l+1
+        # return 100'
