@@ -6,7 +6,7 @@ class Solution:
         i=0
         x=1
         c=0
-        while 0 in ans:
+        while c<n:
             # print(ans)
             if i==len(ans):
                 i=0
