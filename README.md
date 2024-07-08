@@ -33,4 +33,8 @@
 |  |
 | ------- |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
