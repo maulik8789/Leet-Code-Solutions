@@ -10,12 +10,14 @@
 ## Simulation
 |  |
 | ------- |
+| [1803-average-waiting-time](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Array
 |  |
 | ------- |
 | [0835-linked-list-components](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0835-linked-list-components) |
+| [1803-average-waiting-time](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Hash Table
 |  |
