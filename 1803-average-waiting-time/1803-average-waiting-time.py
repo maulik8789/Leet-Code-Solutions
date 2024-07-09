@@ -9,5 +9,4 @@ class Solution:
             elif i>0:
                 t=customers[i][0]+customers[i][1]
             cTime+=t-customers[i][0]
-            # print(cTime)
         return cTime/l
