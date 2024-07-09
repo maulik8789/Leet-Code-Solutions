@@ -11,5 +11,5 @@ class Solution:
             elif i>0:
                 t=c[i][0]+c[i][1]
             cTime+=t-c[i][0]
-            print(cTime)
+            # print(cTime)
         return cTime/len(c)
