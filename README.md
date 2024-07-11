@@ -39,4 +39,12 @@
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0176-second-highest-salary) |
+## String
+|  |
+| ------- |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+## Stack
+|  |
+| ------- |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 <!---LeetCode Topics End-->
