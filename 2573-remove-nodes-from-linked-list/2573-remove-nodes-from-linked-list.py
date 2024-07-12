@@ -27,29 +27,5 @@ class Solution:
                 temp.next=ListNode(curr.val)
                 temp=temp.next
                 curr=curr.next
-        print(ans)
+        # print(ans)
         return reverse_linked_list(ans)
-
-        
-        # dummy=ListNode(-1)
-        # dummy.next=head
-        # ans=ListNode()
-        # curr=dummy.next
-        
-        # while curr.next:
-        #     temp=curr
-        #     while temp.next:
-        #         isNext=0
-        #         print(curr.val, temp.next.val)
-        #         if temp.next.val>curr.val:
-        #             curr=curr.next
-        #             isNext=1
-        #             break
-        #         temp=temp.next
-        #     print(curr)
-        #     if not isNext:
-        #         ans.val=curr.val
-        #         ans.next=curr.next
-        #         curr=curr.next
-
-        # return ans
