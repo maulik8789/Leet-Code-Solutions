@@ -13,6 +13,7 @@
 | [1803-average-waiting-time](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2470-removing-stars-from-a-string](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2470-removing-stars-from-a-string) |
 ## Array
 |  |
 | ------- |
@@ -44,11 +45,13 @@
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2470-removing-stars-from-a-string](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2470-removing-stars-from-a-string) |
 ## Stack
 |  |
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2470-removing-stars-from-a-string](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2470-removing-stars-from-a-string) |
 ## Greedy
 |  |
 | ------- |
