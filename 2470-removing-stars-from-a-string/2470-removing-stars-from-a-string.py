@@ -6,6 +6,8 @@ class Solution:
             if s[i]=='*' and i!=len(s)-1:
                 s=s[:i-1]+s[i+1:]
                 i-=2
+                if i<0:
+                    i=0
             elif s[i]=='*':
                 s=s[:i-1]
                 break
@@ -13,6 +15,4 @@ class Solution:
                 i+=1
             if i<0:
                 i=0
-        # if '*' in s and len(s)==2:
-        #     return ''
         return s
