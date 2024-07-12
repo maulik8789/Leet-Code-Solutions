@@ -43,17 +43,20 @@
 ## String
 |  |
 | ------- |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2470-removing-stars-from-a-string](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2470-removing-stars-from-a-string) |
 ## Stack
 |  |
 | ------- |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2470-removing-stars-from-a-string](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2470-removing-stars-from-a-string) |
 ## Greedy
 |  |
 | ------- |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 <!---LeetCode Topics End-->
