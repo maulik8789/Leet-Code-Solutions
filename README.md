@@ -21,10 +21,12 @@
 | [0835-linked-list-components](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0835-linked-list-components) |
 | [1803-average-waiting-time](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Hash Table
 |  |
 | ------- |
 | [0835-linked-list-components](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0835-linked-list-components) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Math
 |  |
 | ------- |
@@ -66,4 +68,12 @@
 |  |
 | ------- |
 | [2573-remove-nodes-from-linked-list](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2573-remove-nodes-from-linked-list) |
+## Tree
+|  |
+| ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
+## Binary Tree
+|  |
+| ------- |
+| [2306-create-binary-tree-from-descriptions](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 <!---LeetCode Topics End-->
