@@ -18,6 +18,7 @@
 ## Array
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0835-linked-list-components](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0835-linked-list-components) |
 | [1803-average-waiting-time](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -76,4 +77,16 @@
 |  |
 | ------- |
 | [2306-create-binary-tree-from-descriptions](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
+## Binary Search
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0209-minimum-size-subarray-sum) |
+## Sliding Window
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0209-minimum-size-subarray-sum) |
+## Prefix Sum
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
