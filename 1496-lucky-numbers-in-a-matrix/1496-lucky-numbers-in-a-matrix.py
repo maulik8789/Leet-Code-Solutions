@@ -3,7 +3,6 @@ class Solution:
         arr=[]
         for i in range(len(matrix)):
             arr.append(matrix[i].index(min(matrix[i])))
-        ans=[]
         c=0
         for j in range(len(arr)):
             for i in range(len(matrix)):
