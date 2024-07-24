@@ -12,7 +12,7 @@ class Solution:
                 n+=str(mapping[int(st[s][c])])
                 n1+=str(c)
             arr.append(int(n))
-        d=defaultdict(list)
+        d=defaultdict()
         for i in range(len(nums)):
             d[nums[i]]=arr[i]
         if max(arr)==min(arr):
