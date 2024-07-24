@@ -5,13 +5,15 @@ class Solution:
             st.append(str(nums[i]))
         arr=[]
         for s in range(len(st)):
-            n=''
-            n1=''
-            for c in range(len(st[s])):
+            # n=str(mapping[int(st[s][0])])
+            p=mapping[int(st[s][0])]
+            for c in range(1,len(st[s])):
                 # print(s,c, int(st[s][c]))
-                n+=str(mapping[int(st[s][c])])
-                n1+=str(c)
-            arr.append(int(n))
+                p=p*(10)+mapping[int(st[s][c])]
+                # n+=str(mapping[int(st[s][c])])
+            arr.append(p)
+            # print(arr)
+            # print(p)
         d=defaultdict()
         for i in range(len(nums)):
             d[nums[i]]=arr[i]
