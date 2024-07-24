@@ -20,6 +20,7 @@
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0835-linked-list-components](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/0835-linked-list-components) |
+| [1333-sort-the-jumbled-numbers](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1803-average-waiting-time) |
@@ -99,5 +100,6 @@
 ## Sorting
 |  |
 | ------- |
+| [1333-sort-the-jumbled-numbers](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/maulik8789/Leet-Code-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 <!---LeetCode Topics End-->
