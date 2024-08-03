@@ -4,4 +4,4 @@ class Solution:
         for i in range(len(details)):
             if (details[i][11]+details[i][12]) > '60':
                 ans+=1
-        return ans
+        return ans 
