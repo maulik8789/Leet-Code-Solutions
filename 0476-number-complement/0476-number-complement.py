@@ -1,7 +1,7 @@
 class Solution:
     def findComplement(self, num: int) -> int:
         s=bin(num)
-        print(s[2:])
+        # print(s[2:])
         s1=list(s[2:])
         for c in range(len(s1)):
             # print(c)
@@ -12,5 +12,5 @@ class Solution:
             else:
                 s1[c]='1'
         ans="".join(s1)
-        print(int(ans,2))
+        # print(int(ans,2))
         return int(ans,2)
