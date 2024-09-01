@@ -11,10 +11,9 @@ class Solution:
                 ans[ansInd].append(original[i])
                 c+=1
             else:
-                c=0
                 ansInd+=1
                 ans.append([])
                 ans[ansInd].append(original[i])
-                c+=1
+                c=1
             i+=1
         return ans
