@@ -1,12 +1,13 @@
 class Solution:
     def construct2DArray(self, original: List[int], m: int, n: int) -> List[List[int]]:
-        if n*m<len(original) or n*m>len(original):
+        l=len(original)
+        if n*m<l or n*m>l:
             return []
         ans=[[]]
         i=0
         c=0
         ansInd=0
-        while i<len(original):
+        while i<l:
             if c<n:
                 ans[ansInd].append(original[i])
                 c+=1
