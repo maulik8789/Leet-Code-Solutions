@@ -7,8 +7,8 @@ class Solution:
             return ans
         ans=max(ans,max(nums))
         
-        for i in range(len(nums)):
-            for j in range(i, len(nums)):
+        for i in range(len(nums)-1):
+            for j in range(i+1, len(nums)):
                 # print(nums[i:j+1])
                 ans=max(ans,math.prod(nums[i:j+1]))
         
