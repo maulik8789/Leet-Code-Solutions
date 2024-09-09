@@ -5,6 +5,7 @@ class Solution:
         ans=max(ans,math.prod(nums))
         if ans>0:
             return ans
+        ans=max(ans,max(nums))
         
         for i in range(len(nums)):
             for j in range(i, len(nums)):
