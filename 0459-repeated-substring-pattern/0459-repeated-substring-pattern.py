@@ -19,5 +19,5 @@ class Solution:
         # if we remove 1st char from 1st repeatition 
         # and we remove last char from last repeptition
         # we still MUST have repeated string in `str2=s+s`
-        str2=str2[1:-1]
+        str2=str2[1:-1] 
         return s in str2
