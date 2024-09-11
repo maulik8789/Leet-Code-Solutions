@@ -1,7 +1,6 @@
 class Solution:
     def decodeString(self, s: str) -> str:     
         dig=0
-        cStr=''
         stck=[['',1]]
         
         for c in s:
@@ -14,8 +13,7 @@ class Solution:
             elif c == '[':
                 stck.append(['',dig])
                 dig=0
-                # cStr=''
-                print(stck)
+                # print(stck)
                 
             elif c==']' :
                 # print(stck)
@@ -24,7 +22,5 @@ class Solution:
                 # print(prev_str, prev_dig)
                 stck[-1][0]+=(prev_str * prev_dig)
                 # print(stck)
-            # else:
-            #     stck[-1][0]+=c
 
         return stck[0][0]
