@@ -9,4 +9,4 @@ class Solution:
                     break
             if isAllowed:
                 ans+=1
-        return ans
+        return ans 
