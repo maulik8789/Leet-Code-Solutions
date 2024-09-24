@@ -12,5 +12,5 @@ class Solution:
             else:
                 dup=0
             i+=1
-        return len(nums) 
+        return len(nums)
                 
