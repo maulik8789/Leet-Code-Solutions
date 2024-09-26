@@ -10,6 +10,8 @@ class Solution:
         # the current letter[ind] of string `s`,
         # add that letter to string `s1`
         for char in range(len(t)):
+            # If iteration through the string `s` is done,
+            # then, no need to continue; and loop can stop now.
             if ind>len(s)-1:
                 break
             if s[ind]==t[char]:
