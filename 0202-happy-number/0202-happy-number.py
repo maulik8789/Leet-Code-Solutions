@@ -1,21 +1,17 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        def tot(num):
-            digs=0
-            while num>0:
-                # print('start',digs, num)
-                digs+= (num%10) * (num%10)
-                num=int(num/10)
-                # print(digs, num)
-            return digs
-        
-        sm=n
-        while sm!=1:
-            # print(sm)
-            sm=tot(sm)
-            # print('s',sm)
-            if sm==1:
-                return True
-            if sm==4:
-                return False
-        return True 
+        sq=0
+        prev = []
+        s=str(n)
+        while sq != 1:
+            for l in s:
+                sq += int(l) ** 2
+                # print (l, sq)
+            if sq not in prev:
+                prev.append(sq)
+                s = str(sq)
+                sq = 0
+            else:
+                break
+            # print(s, sq, prev)
+        return True if sq == 1 else False
