@@ -18,9 +18,6 @@ class Solution:
         
         k = k % lenList(head)
         
-        # if k==0:
-            # return head
-        
         while k > 0:
             temp = None
             curr = head
@@ -35,4 +32,5 @@ class Solution:
                     curr = curr.next
             head = temp
             k-=1
+            
         return head
