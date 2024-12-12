@@ -6,8 +6,8 @@ class Solution:
         
         while k > 0:
             k-=1
-            gifts.sort()
-            gifts = gifts[::-1]
+            gifts.sort(reverse = True)
+            # gifts = gifts[::-1]
             sqRoot = math.floor(math.sqrt(gifts[0]))
             gft = sqRoot
             gifts[0] = gft
